@@ -36,7 +36,7 @@
 
         <ul id="filters">
           <li>
-            <a href="all">All</a>
+            {{#link-to "todos.index" activeClass="selected"}}All{{/link-to}}
           </li>
 
           <li>
@@ -44,7 +44,7 @@
           </li>
 
           <li>
-            <a href="completed">Completed</a> 
+            {{#link-to "todos.completed" activeClass="selected"}}Completed{{/link-to}}
           </li>
         </ul>
 
